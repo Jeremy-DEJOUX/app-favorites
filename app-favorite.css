@@ -1,0 +1,59 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    margin: 0;
+}
+header{
+  width: 100%;
+  height: 20px;
+  background-color: yellow;
+}
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+main{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Box_1{
+  height: 20%;
+  width: 50%;
+  background-color: red;
+  margin: 0;
+}
+.Box_2{
+  height: 20%;
+  width: 50%;
+  background-color: red;
+    margin: 0;
+}
+.Box_3{
+  height: 20%;
+  width: 50%;
+  background-color: red;
+  margin: 0;
+}
+
+footer{
+  width: 100%;
+  height: 20px;
+  background: yellow;
+}
