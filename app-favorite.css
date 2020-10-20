@@ -23,33 +23,146 @@ header nav{
   justify-content: space-around;
   align-items: center;
 }
+
+
+
 main{
   width: 100%;
   height: 100%;
-  margin: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
-.Box_1{
-  height: 20%;
-  width: 50%;
-  background-color: red;
-  margin: 0;
+.CARD{
+  position: relative;
+  width: 90%;
+  height: 90%;
 }
-.Box_2{
-  height: 20%;
-  width: 50%;
-  background-color: red;
-    margin: 0;
+
+
+
+
+
+
+#btn_SP{
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+
 }
-.Box_3{
-  height: 20%;
-  width: 50%;
-  background-color: red;
-  margin: 0;
+#bou{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.SP{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  transform: scale(0);
+  background: blue;
+}
+
+#bou:checked + .SP{
+  animation: test 2s both;
+}
+
+
+
+
+
+
+
+
+#btn_IN{
+  position: absolute;
+  bottom: 0px;
+  left: 48.8%;
+}
+#bou_2{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+.IN{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  transform: scale(0);
+  background: red;
+}
+
+#bou_2:checked + .IN{
+  animation: test 2s both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn_YT{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#bou_3{
+
+  position: absolute;
+  margin: 0px;
+  bottom: 20px;
+  right: 20px;
+}
+.YT{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  transform: scale(0);
+  background: green;
+}
+
+#bou_3:checked + .YT{
+  animation: test 2s both;
+}
+
+
+
+
+@keyframes test {
+
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 footer{
