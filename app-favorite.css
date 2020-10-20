@@ -4,6 +4,7 @@ html{
   margin: 0;
 }
 
+
 body{
   width: 100%;
   height: 100%;
@@ -12,17 +13,21 @@ body{
   justify-content: space-between;
     margin: 0;
 }
+
+
+/* ===================================HEADER================================= */
 header{
   width: 100%;
-  height: 20px;
-  background-color: yellow;
+  text-align: center;
 }
-header nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+header h1{
+  font-family: 'Righteous', cursive;
 }
+
+
+
+/* ==================================MAIN======================================== */
+
 
 
 
@@ -48,8 +53,9 @@ main{
 #btn_SP{
   position: absolute;
   bottom: 0px;
-  left: 5px;
-
+  left: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
 #bou{
   position: absolute;
@@ -67,14 +73,30 @@ main{
   width: 90%;
   height: 90%;
   transform: scale(0);
-  background: blue;
+  /* background: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bou:checked + .SP{
-  animation: test 2s both;
+  animation: zoomin 2s both;
 }
 
+#bou:not(checked) + .SP{
+  animation: zoomout 2s both
+}
 
+#LienSP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SPimg{
+  width: 50%;
+  height: 50%;
+}
 
 
 
@@ -85,6 +107,8 @@ main{
   position: absolute;
   bottom: 0px;
   left: 48.8%;
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: bold;
 }
 #bou_2{
   position: absolute;
@@ -102,14 +126,29 @@ main{
   width: 90%;
   height: 90%;
   transform: scale(0);
-  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bou_2:checked + .IN{
-  animation: test 2s both;
+  animation: zoomin 2s both;
 }
 
+#bou_2:not(checked) + .IN{
+  animation: zoomout 2s both;
+}
 
+#LienIN{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.INimg{
+  width: 50%;
+  height: 50%;
+}
 
 
 
@@ -126,6 +165,9 @@ main{
   position: absolute;
   bottom: 0px;
   right: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
 }
 #bou_3{
 
@@ -142,21 +184,36 @@ main{
   position: absolute;
   left: 0;
   right: 0;
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
   transform: scale(0);
-  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bou_3:checked + .YT{
-  animation: test 2s both;
+  animation: zoomin 2s both;
+}
+#bou_3:not(checked) + .YT{
+  animation: zoomout 2s both;
+}
+
+#LienYT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.YTimg{
+  width: 50%;
+  height: 50%;
 }
 
 
 
 
-@keyframes test {
-
+@keyframes zoomin {
   0%{
     transform: scale(0);
   }
@@ -164,9 +221,17 @@ main{
     transform: scale(1);
   }
 }
+@keyframes zoomout {
+  0%{
+    transform: scale(1);
+    }
+  100%{
+    transform: scale(0);
+  }
+}
 
+
+/* ==================================FOOTER=================================== */
 footer{
   width: 100%;
-  height: 20px;
-  background: yellow;
 }

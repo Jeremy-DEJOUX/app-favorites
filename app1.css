@@ -1,0 +1,82 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+/* ==============================================HEADER=================================== */
+header{
+  width: 100%;
+  height: 7%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_spotify{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box_left{
+  width: 50%;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.box_left a{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_right a{
+  margin-right: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo_spotify{
+  height: 50px;
+}
+.Logo_instagram{
+  height: 50px;
+}
+.Logo_youtube{
+  height: 50px;
+}
+
+
+/* =======================================MAIN=================================== */
+
+main{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 300px 300px 300px;
+}
