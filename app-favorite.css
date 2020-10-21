@@ -196,7 +196,7 @@ main{
   animation: zoomin 2s both;
 }
 #bou_3:not(checked) + .YT{
-  animation: zoomout 2s both;
+  animation: zoomout 2s;
 }
 
 #LienYT{
