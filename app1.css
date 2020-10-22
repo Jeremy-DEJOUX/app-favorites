@@ -3,10 +3,12 @@
 } */
 
 html{
+  width: 100%;
   margin: 0;
 }
 
 body{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -315,6 +317,7 @@ margin: 20px;
 .Titre_Forfait{
   font-weight: bold;
   font-size: 40px;
+  margin: 0px;
 }
 .Prix_Forfait{
   font-weight: bold;
@@ -322,6 +325,7 @@ margin: 20px;
 }
 .text_back{
   font-size: 25px;
+  margin: 0px;
 }
 
 .Personalisation{
@@ -340,9 +344,12 @@ margin: 20px;
   justify-content: space-around;
   align-items: center;
 }
-
+.Playlist_personalisé a{
+  width: 17%;
+}
 .img_personalisé{
-  width: 300px;
+  width: 100%;
+  height: 100%;
 }
 .img_personalisé:hover{
   padding: 10px;
@@ -358,4 +365,10 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+}
+
+.fab{
+  font-size: 40px;
+  color: grey;
 }
