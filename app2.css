@@ -8,7 +8,7 @@ body{
   background-color: rgb(250, 250, 250);
   margin: 0px;
   width: 100%;
-  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -86,13 +86,61 @@ header{
 
 .instagram_left{
   width: 50%;
-  background: yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 30px;
 }
 
+.cadre_instagram{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.cadre_instagram h1{
+  margin: 0px;
+  font-size: 50px;
+  font-family: 'Sansita Swashed', cursive;
+}
+.cadre_instagram p{
+  margin: 0px;
+  font-size: 18px;
+}
+
+
+
+.central_instagram{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.profil_instagram{
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+}
+.profil_instagram img{
+  border-radius: 100%;
+  height: 70%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.profil_instagram h2{
+  font-size: 20px;
+  margin: 0px;
+}
+
+.image_Wes{
+  width: 100%;
+}
 .instagram_right{
   width: 25%;
   background-color: red;
