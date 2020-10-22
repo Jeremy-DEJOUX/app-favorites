@@ -1,0 +1,107 @@
+html{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: rgb(250, 250, 250);
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ===========================================HEADER======================================= */
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1)
+}
+
+.nav_instagram{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box_left{
+  width: 50%;
+  height: 100%;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+.box_left a{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_right a{
+  margin-right: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo_spotify{
+  height: 30px;
+}
+.Logo_instagram{
+  height: 30px;
+}
+.Logo_youtube{
+  height: 30px;
+}
+
+
+
+
+
+/* =============================================MAIN========================================== */
+.instagram_main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.instagram_left{
+  width: 50%;
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.instagram_right{
+  width: 25%;
+  background-color: red;
+}
+
+
+/* ================================================FOOTER========================== */
+footer{
+  height: 50px;
+  width: 100%;
+  background: black;
+}
