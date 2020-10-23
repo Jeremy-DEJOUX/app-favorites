@@ -1,0 +1,192 @@
+html{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: rgb(250, 250, 250);
+  margin: 0px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ===========================================HEADER======================================= */
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(219,219,219);
+}
+
+.nav_instagram{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box_left{
+  width: 50%;
+  height: 100%;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+.box_left a{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box_right a{
+  margin-right: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo_spotify{
+  height: 30px;
+}
+.Logo_instagram{
+  height: 30px;
+}
+.Logo_youtube{
+  height: 30px;
+}
+/* ===========================================MAIN================================================= */
+
+
+.Youtube_main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Youtube_left{
+  width: 10%;
+  height: 100px;;
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Youtube_right{
+  width: 90%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Creatif{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Creatif_Simon{
+  width: 30%;
+}
+.Creatif_Sylvain{
+  width: 30%;
+}
+.Creatif_Seb{
+  width: 30%;
+}
+
+
+
+.Journal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Journal_css{
+  width: 30%;
+}
+.Journal_01net{
+  width: 30%;
+}
+.Journal_Peaceful{
+  width: 30%;
+}
+
+
+
+
+
+.Cinema{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Cine_Alphi{
+  width: 30%;
+}
+.Cine_Clara{
+  width: 30%;
+}
+.Cine_Arte{
+  width: 30%;
+}
+
+.Lien_video{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.Presentation{
+  width: 100%;
+  margin: 0px;
+}
+
+/* ============================================FOOTER====================================================== */
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgba(219,219,219);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fab{
+  font-size: 40px;
+  color: grey;
+}
